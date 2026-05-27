@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Profile</title>
+  <link rel="stylesheet" href="admin-profile.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+
+  
+<!--! Header with logo, search, icons, and bottom nav -->
+<header>
+  <div class="header-top">
+    <div class="logo">FashionFlex</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+    </div>
+    <div class="icons">
+      <i class="fas fa-bell"></i>
+      <!--! pop up  -->
+      <!-- Logout Button -->
+            <div class="logout-container">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                  Logout
+                </button>
+            </div>
+        </nav>
+
+<!-- Logout Modal (outside sidebar) -->
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="logoutModalLabel" style="color: black;">Logout</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="color: black;">
+            Are you sure you want to logout?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+            <button type="button" class="btn btn-primary" style="color: white;"><a href="../FRONT END USING HTML/login.html">yes</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--! pop up  -->
+  
+    </div>
+  </div>
+
+
+  <!--$ Centered Navigation Bar -->
+  <div class="nav-links-container">
+    <nav class="nav-links">
+      <a href="admin-dashboard.html">All</a>
+     <a href="admin-profile.html">Admin Profile</a>
+      <a href="add manager.html">Add Manager</a>
+      <a href="manager list.html">Manager List</a>
+      <a href="store report.html">Store Report</a>
+      <a href="store list.html">Store List</a>
+      <a href="user list.html">User List</a>
+      <a href="tickets list.html">Ticket List</a>
+      <a href="item list.html">Item List</a>
+    </nav>
+  </div>
+</header>
+ <!--! header ends hear  -->
+<section>
+  <div class="form-container">
+    <h2>Admin Profile</h2>
+
+    <div class="photo-upload">
+      <label for="admin-photo" class="upload-label">
+        <div class="image-preview">
+          <i class="fas fa-user-shield"></i>
+        </div>
+        <span><i class="fas fa-camera"></i> Upload Photo</span>
+      </label>
+      <input type="file" id="admin-photo" accept="image/*" hidden>
+    </div>
+
+    <form class="admin-form">
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter full name" required>
+      </div>
+
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="Enter email" required>
+      </div>
+
+      <div class="form-group">
+        <label>Contact</label>
+        <input type="tel" placeholder="Enter contact number" required>
+      </div>
+    
+      <div class="form-group">
+        <label>Description</label>
+        <textarea rows="2" placeholder="Short admin description"></textarea>
+      </div>
+
+
+      <div class="button-group">
+        
+        <button type="submit" class="save-btn">Save Profile</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+  
+</body>
+</html>

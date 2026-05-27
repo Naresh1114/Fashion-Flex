@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Store List</title>
+  <link rel="stylesheet" href="store list.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+
+  
+<!--! Header with logo, search, icons, and bottom nav -->
+<header>
+  <div class="header-top">
+    <div class="logo">FashionFlex</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+    </div>
+    <div class="icons">
+      <i class="fas fa-bell"></i>
+      <!--! pop up  -->
+      <!-- Logout Button -->
+            <div class="logout-container">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                  Logout
+                </button>
+            </div>
+        </nav>
+
+<!-- Logout Modal (outside sidebar) -->
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="logoutModalLabel" style="color: black;">Logout</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="color: black;">
+            Are you sure you want to logout?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+            <button type="button" class="btn btn-primary" style="color: white;"><a href="../FRONT END USING HTML/login.html">yes</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--! pop up  -->
+  
+    </div>
+  </div>
+
+
+  <!--$ Centered Navigation Bar -->
+  <div class="nav-links-container">
+    <nav class="nav-links">
+      <a href="admin-dashboard.html">All</a>
+     <a href="admin-profile.html">Admin Profile</a>
+      <a href="add manager.html">Add Manager</a>
+      <a href="manager list.html">Manager List</a>
+      <a href="store report.html">Store Report</a>
+      <a href="store list.html">Store List</a>
+      <a href="user list.html">User List</a>
+      <a href="tickets list.html">Ticket List</a>
+      <a href="item list.html">Item List</a>
+    </nav>
+  </div>
+</header>
+ <!--! header ends hear  -->
+
+
+  <div class="container">
+    <h2>Store List</h2>
+    <table>
+      <thead>
+  <tr>
+    <th>S.No</th>
+    <th>Store ID</th>
+    <th>Store Name</th>
+    <th>Owner Name</th>
+    <th>Contact</th>
+    <th>Email</th>
+    <th>Address</th>
+    <th>Store Zone</th>
+    <th>More</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>ST001</td>
+    <td>Naresh Store</td>
+    <td>Naresh Naik</td>
+    <td>9876543210</td>
+    <td>naresh@store.com</td>
+    <td>123 Banjara Hills, Hyderabad, Telangana</td>
+    <td>North</td>
+    <td><a href="#">More</a></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>ST002</td>
+    <td>Kiran Fashions</td>
+    <td>Kiran Reddy</td>
+    <td>9876501234</td>
+    <td>kiran@store.com</td>
+    <td>45 MG Road, Bangalore, Karnataka</td>
+    <td>South</td>
+    <td><a href="#">More</a></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>ST003</td>
+    <td>Shalini Trends</td>
+    <td>Shalini Mehra</td>
+    <td>8765432109</td>
+    <td>shalini@store.com</td>
+    <td>12 T Nagar, Chennai, Tamil Nadu</td>
+    <td>East</td>
+    <td><a href="#">More</a></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>ST004</td>
+    <td>Deepika Styles</td>
+    <td>Deepika Rao</td>
+    <td>7894561230</td>
+    <td>deepika@store.com</td>
+    <td>99 Connaught Place, Delhi</td>
+    <td>West</td>
+    <td><a href="#">More</a></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>ST005</td>
+    <td>Harika Hub</td>
+    <td>Harika Jain</td>
+    <td>7654321980</td>
+    <td>harika@store.com</td>
+    <td>88 Andheri West, Mumbai, Maharashtra</td>
+    <td>Central</td>
+    <td><a href="#">More</a></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>ST006</td>
+    <td>Nikil Fashion</td>
+    <td>Nikil Sharma</td>
+    <td>7012345678</td>
+    <td>nikil@store.com</td>
+    <td>34 Park Street, Kolkata, West Bengal</td>
+    <td>North</td>
+    <td><a href="#">More</a></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>ST007</td>
+    <td>Nithin Wear</td>
+    <td>Nithin Raj</td>
+    <td>9988776655</td>
+    <td>nithin@store.com</td>
+    <td>78 CG Road, Ahmedabad, Gujarat</td>
+    <td>South</td>
+    <td><a href="#">More</a></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>ST008</td>
+    <td>Dheeraj Fashion</td>
+    <td>Dheeraj Patel</td>
+    <td>9090909090</td>
+    <td>dheeraj@store.com</td>
+    <td>10 FC Road, Pune, Maharashtra</td>
+    <td>East</td>
+    <td><a href="#">More</a></td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>ST009</td>
+    <td>Lavanya Styles</td>
+    <td>Lavanya Nair</td>
+    <td>8989898989</td>
+    <td>lavanya@store.com</td>
+    <td>21 MI Road, Jaipur, Rajasthan</td>
+    <td>West</td>
+    <td><a href="#">More</a></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>ST010</td>
+    <td>Santhoosh Clothing</td>
+    <td>Santhoosh Babu</td>
+    <td>8123456789</td>
+    <td>santhoosh@store.com</td>
+    <td>56 Beach Road, Visakhapatnam, Andhra Pradesh</td>
+    <td>Central</td>
+    <td><a href="#">More</a></td>
+  </tr>
+</tbody>
+
+    </table>
+  </div>
+</body>
+</html>

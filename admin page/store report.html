@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Store Report</title>
+  <link rel="stylesheet" href="store report.css" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+
+  
+<!--! Header with logo, search, icons, and bottom nav -->
+<header>
+  <div class="header-top">
+    <div class="logo">FashionFlex</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+    </div>
+    <div class="icons">
+      <i class="fas fa-bell"></i>
+      <!--! pop up  -->
+      <!-- Logout Button -->
+            <div class="logout-container">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                  Logout
+                </button>
+            </div>
+        </nav>
+
+<!-- Logout Modal (outside sidebar) -->
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="logoutModalLabel" style="color: black;">Logout</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="color: black;">
+            Are you sure you want to logout?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+            <button type="button" class="btn btn-primary" style="color: white;"><a href="../FRONT END USING HTML/login.html">yes</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--! pop up  -->
+  
+    </div>
+  </div>
+
+  <!--$ Centered Navigation Bar -->
+  <div class="nav-links-container">
+    <nav class="nav-links">
+      <a href="admin-dashboard.html">All</a>
+     <a href="admin-profile.html">Admin Profile</a>
+      <a href="add manager.html">Add Manager</a>
+      <a href="manager list.html">Manager List</a>
+      <a href="store report.html">Store Report</a>
+      <a href="store list.html">Store List</a>
+      <a href="user list.html">User List</a>
+      <a href="tickets list.html">Ticket List</a>
+      <a href="item list.html">Item List</a>
+    </nav>
+  </div>
+</header>
+ <!--! header ends hear  -->
+
+
+  <div class="container">
+    <h2>Store Report</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Store ID</th>
+          <th>Report Name</th>
+          <th>Revenue</th>
+          <th>Maintenance Charge</th>
+          <th>Report Date</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>STR101</td>
+          <td>Q1 Sales Summary</td>
+          <td>₹2,50,000</td>
+          <td>₹15,000</td>
+          <td>2025-03-31</td>
+          <td>Verified</td>
+        </tr>
+        <tr>
+          <td>STR102</td>
+          <td>Monthly Income - Jan</td>
+          <td>₹80,000</td>
+          <td>₹5,000</td>
+          <td>2025-01-31</td>
+          <td>Pending</td>
+        </tr>
+        <tr>
+          <td>STR103</td>
+          <td>Annual Profit Report</td>
+          <td>₹9,60,000</td>
+          <td>₹65,000</td>
+          <td>2025-03-15</td>
+          <td>Approved</td>
+        </tr>
+        <tr>
+          <td>STR104</td>
+          <td>Store Growth 2024</td>
+          <td>₹6,30,000</td>
+          <td>₹42,000</td>
+          <td>2025-01-10</td>
+          <td>Rejected</td>
+        </tr>
+        <tr>
+          <td>STR105</td>
+          <td>Profit Margin Feb</td>
+          <td>₹1,10,000</td>
+          <td>₹7,000</td>
+          <td>2025-02-28</td>
+          <td>Verified</td>
+        </tr>
+        <tr>
+          <td>STR106</td>
+          <td>Maintenance Detail</td>
+          <td>₹0</td>
+          <td>₹12,500</td>
+          <td>2025-03-01</td>
+          <td>Pending</td>
+        </tr>
+        <tr>
+          <td>STR107</td>
+          <td>Return Summary</td>
+          <td>₹45,000</td>
+          <td>₹2,500</td>
+          <td>2025-03-05</td>
+          <td>Approved</td>
+        </tr>
+        <tr>
+          <td>STR108</td>
+          <td>Net Sales Q4</td>
+          <td>₹3,20,000</td>
+          <td>₹20,000</td>
+          <td>2025-03-29</td>
+          <td>Verified</td>
+        </tr>
+        <tr>
+          <td>STR109</td>
+          <td>Inventory Charges</td>
+          <td>₹0</td>
+          <td>₹9,000</td>
+          <td>2025-02-18</td>
+          <td>Pending</td>
+        </tr>
+        <tr>
+          <td>STR110</td>
+          <td>Festival Season Sale</td>
+          <td>₹1,75,000</td>
+          <td>₹10,000</td>
+          <td>2025-01-15</td>
+          <td>Approved</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

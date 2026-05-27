@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background-image: url(assects/psw.jpg); */
+  background-image: url(../images/manager-images/change\ password.jpg)  ;
+/* background-repeat: no-repeat;  */
+}
+
+.login-container {
+  /* background: white; */
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  box-shadow: 2px 2px 5px red, -2px -2px 5px blue;
+
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #f8f4f4;
+  text-shadow: 5px 5px 2px black;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #ddd;
+}
+
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.options .forgot {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.options .forgot:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #ff3355;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>user</title>
+  <link rel="stylesheet" href="../store-css/user.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+
+  
+<!--! Header with logo, search, icons, and bottom nav -->
+<header>
+  <div class="header-top">
+    <div class="logo">FashionFlex</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+    </div>
+    <div class="icons">
+      <i class="fas fa-bell"></i>
+      <!--! pop up  -->
+      <!-- Logout Button -->
+            <div class="logout-container">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                  Logout
+                </button>
+            </div>
+        </nav>
+
+<!-- Logout Modal (outside sidebar) -->
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="logoutModalLabel" style="color: black;">Logout</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="color: black;">
+            Are you sure you want to logout?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+            <button type="button" class="btn btn-primary"  style="color: white;"><a href="../FRONT END USING HTML/login.html">yes</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--! pop up  -->
+  
+    </div>
+  </div>
+
+  <!--$ Centered Navigation Bar -->
+  <div class="nav-links-container">
+    <nav class="nav-links">
+      <a href="item-listing-page.html">All</a>
+      <a href="profile.html">Profile</a>
+      <a href="add-items.html">Add Items</a>
+      <a href="item-list.html">Item List</a>
+      <a href="order.html">Order</a>
+      <a href="user.html">User List</a>
+      <a href="history.html">History</a>
+      <a href="review.html">Review</a>
+      <a href="tracking.html">Tracking</a>
+      <a href="return.html">Return</a>
+      <a href="transaction.html">Transaction</a>
+    </nav>
+  </div>
+</header>
+
+
+<!--! user list starts hear  -->
+
+<section class="user-list-section">
+  <h2>User List</h2>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>S.No</th>
+          <th>Customer ID</th>
+          <th>Name</th>
+          <th>Mobile</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th>Total Orders</th>
+          <th>Returns</th>
+          <th>Damaged</th>
+          <th>Feedback</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td><td>CST101</td><td>Naresh Naik</td><td>9010447005</td><td>naresh@example.com</td><td>Ramanthapur</td><td><a href="#orders1">3</a></td><td><a href="#returns1">1</a></td><td>Yes</td><td>Slight stain noted.</td>
+        </tr>
+        <tr>
+          <td>2</td><td>CST102</td><td>Mekala Shalini</td><td>9998887776</td><td>shalini@example.com</td><td>Ramanthapur</td><td><a href="#orders2">2</a></td><td><a href="#returns2">0</a></td><td>No</td><td>Always clean.</td>
+        </tr>
+        <tr>
+          <td>3</td><td>CST103</td><td>Soma SaiKiran</td><td>9876000000</td><td>saikiran@example.com</td><td>Ramanthapur</td><td><a href="#orders3">4</a></td><td><a href="#returns3">2</a></td><td>Yes</td><td>Pocket torn, stain.</td>
+        </tr>
+        <tr>
+          <td>4</td><td>CST104</td><td>Vallakanti Harika</td><td>9123456789</td><td>harika@example.com</td><td>Ramanthapur</td><td><a href="#orders4">1</a></td><td><a href="#returns4">1</a></td><td>Yes</td><td>Good, needs ironing.</td>
+        </tr>
+        <tr>
+          <td>5</td><td>CST105</td><td>Nikil Reddy</td><td>9080706050</td><td>nikil@example.com</td><td>Ramanthapur</td><td><a href="#orders5">5</a></td><td><a href="#returns5">0</a></td><td>No</td><td>Neat packing.</td>
+        </tr>
+        <tr>
+          <td>6</td><td>CST106</td><td>Krishna</td><td>9991110000</td><td>krishna@example.com</td><td>Ramanthapur</td><td><a href="#orders6">2</a></td><td><a href="#returns6">1</a></td><td>Yes</td><td>Border stains.</td>
+        </tr>
+        <tr>
+          <td>7</td><td>CST107</td><td>Radha</td><td>9871234567</td><td>radha@example.com</td><td>Ramanthapur</td><td><a href="#orders7">3</a></td><td><a href="#returns7">0</a></td><td>No</td><td>Nice fit.</td>
+        </tr>
+        <tr>
+          <td>8</td><td>CST108</td><td>Rama</td><td>9012345678</td><td>rama@example.com</td><td>Ramanthapur</td><td><a href="#orders8">4</a></td><td><a href="#returns8">1</a></td><td>Yes</td><td>Minor thread issue.</td>
+        </tr>
+        <tr>
+          <td>9</td><td>CST109</td><td>Seetha</td><td>9765432109</td><td>seetha@example.com</td><td>Ramanthapur</td><td><a href="#orders9">2</a></td><td><a href="#returns9">1</a></td><td>Yes</td><td>Quick pickup.</td>
+        </tr>
+        <tr>
+          <td>10</td><td>CST110</td><td>Vikram</td><td>9900880077</td><td>vikram@example.com</td><td>Ramanthapur</td><td><a href="#orders10">1</a></td><td><a href="#returns10">0</a></td><td>No</td><td>Excellent suit.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="orders-section" id="orders1">
+  <h3>Orders of Naresh Naik (CST101)</h3>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th>S.No</th><th>Image</th><th>Item ID</th><th>Name</th><th>Price</th><th>Duration</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td><img src="item1.jpg" class="item-img" alt="Shirt"></td><td>ITM2001</td><td>Shirt</td><td>₹499</td><td>5</td></tr>
+        <tr><td>2</td><td><img src="item2.jpg" class="item-img" alt="Jeans"></td><td>ITM2002</td><td>Jeans</td><td>₹899</td><td>4</td></tr>
+        <tr><td>3</td><td><img src="item3.jpg" class="item-img" alt="Jacket"></td><td>ITM2003</td><td>Jacket</td><td>₹1499</td><td>3</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="returns-section" id="returns1">
+  <h3>Returns of Naresh Naik (CST101)</h3>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th>S.No</th><th>Image</th><th>Item ID</th><th>Issue</th><th>Extra Charges</th><th>Feedback</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td><img src="item1.jpg" class="item-img" alt="Shirt"></td><td>ITM2001</td><td>Stain</td><td>₹100</td><td>Slight stain noted.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!--! user list endss hear  -->
+
+<br><br><br>
+<!--! Footer -->
+<!-- Footer -->
+<footer>
+  <div class="footer-container">
+    
+  
+
+  <div class="footer-bottom">
+    &copy; 2025 MyCompany. All rights reserved.
+  </div>
+</footer>
+
+
+</body>
+</html>

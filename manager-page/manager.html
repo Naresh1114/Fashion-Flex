@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manager Dashboard</title>
+  <link rel="stylesheet" href="../manager-css/manager.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<!-- Top Header -->
+<header class="top-header">
+  <div class="logo">FashionFlex </div>
+  <div class="search-bar">
+    <i class="fas fa-search"></i>
+    <input type="text" placeholder="Search here...">
+  </div>
+  <div class="icons">
+    <i class="fas fa-bell"></i>
+    <i class="fas fa-user-circle"></i>
+  </div>
+</header>
+
+<!-- Layout container -->
+<div class="dashboard-layout">
+
+  <!-- Sidebar (Below header) -->
+  <aside class="sidebar">
+    <nav class="nav-links">
+      <a href="manager.html">All</a>
+        <a href="manager_profile.htm">profile</a>
+        <a href="add store.html">Add Store</a>
+        <a href="store list.html">Store List</a>
+        <a href="user list.html">User List</a>
+        <a href="tickets.html">Tickets</a>
+        <a href="report.html">Reports</a>
+        <a href="change psw.html">Change Password</a>
+    </nav>
+  </aside>
+
+  <!-- Main content -->
+  <main class="main-content">
+
+    <!-- Animated Images and Grid -->
+    <section class="main">
+      <div class="scroll-image">
+        <div class="scroll-track">
+          <img src="../images/manager-images/all stores.webp" alt="Store 1">
+          <img src="../images/manager-images/new store.jpg" alt="Store 2">
+          <img src="../images/manager-images/store 1.jpg" alt="Store 3">
+          <img src="../images/manager-images/store 2.jpg" alt="Store 4">
+          <img src="../images/manager-images/store 3.jpg" alt="Store 5">
+        </div>
+      </div>
+
+      <div class="grid-images">
+        <div class="grid-item"><img src="../images/manager-images/Feedback.webp"><p>User Feedback</p></div>
+        <div class="grid-item"><img src="../images/manager-images/Sales Report.jpg"><p>Sales Report</p></div>
+        <div class="grid-item"><img src="../images/manager-images/Support Ticket.png"><p>Support Ticket</p></div>
+        <div class="grid-item"><img src="../images/manager-images/Security Settings.jpg"><p>Security Settings</p></div>
+        <div class="grid-item"><img src="../images/manager-images/all stores.webp"><p>All Stores</p></div>
+        <div class="grid-item"><img src="../images/manager-images/new store.jpg"><p>New Store</p></div>
+      </div>
+    </section>
+
+    <!-- Report Section -->
+    <section class="full-section">
+      <h2>Reports & Insights</h2>
+      <div class="image-row">
+        <div class="image-block">
+          <img src="../images/manager-images/monthly sales.webp" alt="report">
+          <p>Monthly Sales</p>
+        </div>
+        <div class="image-block">
+          <img src="../images/manager-images/Customer Analytics.webp" alt="analytics">
+          <p>Customer Analytics</p>
+        </div>
+        <div class="image-block">
+          <img src="../images/manager-images/Store Performance.webp" alt="stores">
+          <p>Store Performance</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-bottom">
+      &copy; 2025 FashionFlex Manager. All rights reserved.
+    </footer>
+
+  </main>
+</div>
+
+</body>
+</html>

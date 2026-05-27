@@ -1,0 +1,31 @@
+body {
+  background-color: #f8f9fa;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+.terms-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #28a745;
+}
+
+.terms-container h2 {
+  color: #28a745;
+  font-weight: 700;
+}
+
+.terms-container ul {
+  padding-left: 20px;
+}
+
+.terms-container h4 {
+  margin-top: 20px;
+  color: #222;
+}

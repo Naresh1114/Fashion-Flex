@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tickets</title>
+  <link rel="stylesheet" href="../manager-css/tickets.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+
+  
+<!--! Header with logo, search, icons, and bottom nav -->
+<header>
+  <div class="header-top">
+    <div class="logo">FashionFlex</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+    </div>
+    <div class="icons">
+      <i class="fas fa-bell"></i>
+      <!--! pop up  -->
+      <!-- Logout Button -->
+            <div class="logout-container">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                  Logout
+                </button>
+            </div>
+        </nav>
+
+<!-- Logout Modal (outside sidebar) -->
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="logoutModalLabel" style="color: black;">Logout</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="color: black;">
+            Are you sure you want to logout?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+            <button type="button" class="btn btn-primary"  style="color: white;"><a href="../FRONT END USING HTML/login.html">yes</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--! pop up  -->
+  
+    </div>
+  </div>
+
+  <!--$ Centered Navigation Bar -->
+  <div class="nav-links-container">
+    <nav class="nav-links">
+     <a href="manager.html">All</a>
+        <a href="manager_profile.htm">profile</a>
+        <a href="add store.html">Add Store</a>
+        <a href="store list.html">Store List</a>
+        <a href="user list.html">User List</a>
+        <a href="tickets.html">Tickets</a>
+        <a href="report.html">Reports</a>
+        <a href="change psw.html">Change Password</a>
+    </nav>
+  </div>
+</header>
+
+<!--! header ends hear  -->
+
+
+  <div class="wrap">
+  <h1>Support Tickets</h1>
+  <table class="table table-bordered table-striped">
+   <thead class="table-dark">
+  <tr>
+    <th>ID</th>
+    <th>User</th>
+    <th>Contact</th>
+    <th>Email</th>
+    <th>Subject</th>
+    <th>Issue</th>
+    <th>Issue Date</th>
+    <th>Status</th>
+  </tr>
+</thead>
+<tbody>
+  <tr><td>U101</td><td>Arjun Reddy</td><td>9876543210</td><td>arjun@example.com</td><td>Referral Not Working</td><td>Referral code not applied</td><td>2025-06-01</td><td>Open</td></tr>
+  <tr><td>U102</td><td>Sneha Rao</td><td>9123456789</td><td>sneha@example.com</td><td>Referral Bonus</td><td>Didn't receive bonus</td><td>2025-06-02</td><td>In Progress</td></tr>
+  <tr><td>U103</td><td>Vikram Joshi</td><td>9988776655</td><td>vikram@example.com</td><td>Code Error</td><td>Invalid referral code</td><td>2025-06-03</td><td>Closed</td></tr>
+  <tr><td>U104</td><td>Meghana Iyer</td><td>9090909090</td><td>meghana@example.com</td><td>Bonus Delay</td><td>Bonus not credited</td><td>2025-06-04</td><td>Open</td></tr>
+  <tr><td>U105</td><td>Karthik Nair</td><td>9009009001</td><td>karthik@example.com</td><td>Referral Issue</td><td>Friend didn't get invite</td><td>2025-06-04</td><td>Open</td></tr>
+  <tr><td>U106</td><td>Ayesha Khan</td><td>8012345678</td><td>ayesha@example.com</td><td>Missing Reward</td><td>No coins for referral</td><td>2025-06-05</td><td>In Progress</td></tr>
+  <tr><td>U107</td><td>Ravi Teja</td><td>8999888777</td><td>ravi@example.com</td><td>Code Invalid</td><td>Referral code expired</td><td>2025-06-05</td><td>Closed</td></tr>
+  <tr><td>U108</td><td>Divya Shah</td><td>8111222333</td><td>divya@example.com</td><td>Invite Error</td><td>Invite not received</td><td>2025-06-06</td><td>Open</td></tr>
+  <tr><td>U109</td><td>Sachin Verma</td><td>7888999900</td><td>sachin@example.com</td><td>Bonus Missing</td><td>Points not added</td><td>2025-06-06</td><td>In Progress</td></tr>
+  <tr><td>U110</td><td>Nikita Rao</td><td>7000123456</td><td>nikita@example.com</td><td>Referral Glitch</td><td>Code applied but failed</td><td>2025-06-07</td><td>Open</td></tr>
+</tbody>
+
+
+  </table>
+</div>
+
+</body>
+</html>

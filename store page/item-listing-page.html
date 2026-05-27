@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Layout with Animation</title>
+  <link rel="stylesheet" href="../store-css/item-listing-page.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+
+  
+<!--! Header with logo, search, icons, and bottom nav -->
+<header>
+  <div class="header-top">
+    <div class="logo">FashionFlex</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+    </div>
+    <div class="icons">
+      <i class="fas fa-bell"></i>
+      <!--! pop up  -->
+      <!-- Logout Button -->
+            <div class="logout-container">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                  Logout
+                </button>
+            </div>
+        </nav>
+
+<!-- Logout Modal (outside sidebar) -->
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="logoutModalLabel" style="color: black;">Logout</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="color: black;">
+            Are you sure you want to logout?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+            <button type="button" class="btn btn-primary"  style="color: white;"><a href="../FRONT END USING HTML/login.html">yes</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--! pop up  -->
+  
+    </div>
+  </div>
+
+  <!--$ Centered Navigation Bar -->
+  <div class="nav-links-container">
+    <nav class="nav-links">
+      <a href="item-listing-page.html">All</a>
+      <a href="profile.html">Profile</a>
+      <a href="add-items.html">Add Items</a>
+      <a href="item-list.html">Item List</a>
+      <a href="order.html">Order</a>
+      <a href="user.html">User List</a>
+      <a href="history.html">History</a>
+      <a href="review.html">Review</a>
+      <a href="tracking.html">Tracking</a>
+      <a href="return.html">Return</a>
+      <a href="transaction.html">Transaction</a>
+    </nav>
+  </div>
+</header>
+
+<!--! Main Section -->
+<section class="main">
+  <!--@ Animated Image Scroll Left -->
+  <div class="scroll-image">
+    <div class="scroll-track">
+      <img src="../images/store-imgs/" alt="img1" >
+      <img src="../images/store-imgs/langavoni.jpg" alt="img2">
+      <img src="../images/store-imgs/saree animation.jpg" alt="img3">
+      <img src="../images/store-imgs/kurthas anim.jpg" alt="img4">
+      <img src="../images/store-imgs/traditional animation.avif" alt="img5">
+
+      <img src="../images/store-imgs/blazer.jpg" alt="img1" >
+      <img src="../images/store-imgs/langavoni.jpg" alt="img2">
+      <img src="../images/store-imgs/saree animation.jpg" alt="img3">
+      <img src="../images/store-imgs/kurthas anim.jpg" alt="img4">
+      <img src="../images/store-imgs/traditional animation.avif" alt="img5">
+    </div>
+  </div>
+
+  <!--@ Right Side Grid -->
+  <div class="grid-images">
+    <div class="grid-item"><img src="../images/store-imgs/side_1.jpg"><p>Description 1</p></div>
+    <div class="grid-item"><img src="../images/store-imgs/side_2.jpg"><p>Description 2</p></div>
+    <div class="grid-item"><img src="../images/store-imgs/side_4.webp"><p>Description 3</p></div>
+    <div class="grid-item"><img src="../images/store-imgs/side_3.webp"><p>Description 4</p></div>
+    <div class="grid-item"><img src="../images/store-imgs/side_5.webp"><p>Description 5</p></div>
+    <div class="grid-item"><img src="../images/store-imgs/side_6.jpeg"><p>Description 6</p></div>
+  </div>
+</section>
+
+<!--! Full Width Branded / History Section -->
+<section class="full-section">
+  <h2>Branded & History Images</h2>
+  <div class="image-row">
+    <div class="image-block">
+      <img src="../images/store-imgs/side_6.jpeg" alt="branded1">
+      <p>Branded Image Description</p>
+    </div>
+    <div class="image-block">
+      <img src="../images/store-imgs/side_4.webp" alt="history1">
+      <p>History Image Description</p>
+    </div>
+    <div class="image-block">
+      <img src="../images/store-imgs/side_1.jpg" alt="branded2">
+      <p>Branded Image Description</p>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br><br>
+<!--! Footer -->
+<!-- Footer -->
+<footer>
+  <div class="footer-container">
+    
+  
+
+  <div class="footer-bottom">
+    &copy; 2025 MyCompany. All rights reserved.
+  </div>
+</footer>
+
+
+</body>
+</html>

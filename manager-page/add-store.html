@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add Store</title>
+  <link rel="stylesheet" href="../manager-css/add store.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<!--! Header Section -->
+<header>
+  <div class="header-top">
+    <div class="logo">FashionFlex</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+    </div>
+    <div class="icons">
+      <i class="fas fa-bell"></i>
+
+      <div class="logout-container">
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#logoutModal">
+          Logout
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-links-container">
+    <nav class="nav-links">
+      <a href="manager.html">All</a>
+        <a href="manager_profile.htm">profile</a>
+        <a href="add store.html">Add Store</a>
+        <a href="store list.html">Store List</a>
+        <a href="user list.html">User List</a>
+        <a href="tickets.html">Tickets</a>
+        <a href="report.html">Reports</a>
+        <a href="change psw.html">Change Password</a>
+    </nav>
+  </div>
+</header>
+
+<!--! Logout Modal -->
+<div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="logoutModalLabel" style="color: black;">Logout</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="color: black;">
+        Are you sure you want to logout?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+        <a href="../FRONT END USING HTML/login.html" class="btn btn-primary" style="color: white;">Yes</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add Store Form Section -->
+<section>
+  <div class="container">
+    <h1>Add Store</h1>
+    <form>
+      
+      <div class="form-group">
+        <label>Store Name:</label>
+        <input type="text" placeholder="e.g., FashionFlex Express">
+      </div>
+      <div class="form-group">
+        <label>Zone:</label>
+        <input type="text" placeholder="e.g., South">
+      </div>
+      <div class="form-group">
+        <label>Store Owner:</label>
+        <input type="text" placeholder="e.g., Naresh Naik">
+      </div>
+      <div class="form-group">
+        <label>Contact:</label>
+        <input type="tel" placeholder="+91-9000000000">
+      </div>
+      <div class="form-group">
+        <label>Email:</label>
+        <input type="email" placeholder="store@example.com">
+      </div>
+      <div class="form-group">
+        <label>Address:</label>
+        <textarea rows="3" placeholder="Full address here..."></textarea>
+      </div>
+      
+      <div class="form-group">
+        <label>Password:</label>
+        <input type="password" placeholder="Create a password">
+      </div>
+      <div class="buttons">
+        <button type="submit" class="add">Add Store</button>
+        <button type="reset" class="delete">Clear Form</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+</body>
+</html>

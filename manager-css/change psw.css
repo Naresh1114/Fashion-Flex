@@ -1,0 +1,14 @@
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(135deg,#e0eafc,#cfdef3);height:100vh;display:flex;justify-content:center;align-items:center; background-image: url(../images/manager-images/change\ password.jpg); background-size: cover;}
+.container{background:rgba(255, 255, 255, 0.048);padding:30px;border-radius:8px;box-shadow:0 5px 20px rgba(0,0,0,0.1);width:360px; box-shadow: 2px 2px 5px red, -2px -2px 5px blue;
+}
+h1{text-align:center;margin-bottom:20px;color:#ffffff; text-shadow: black 5px 5px 2px;}
+.form-group{margin-bottom:15px;}
+label{display:block;margin-bottom:5px;color:#ffffff;}
+input{width:100%;padding:8px;border:1px solid #ccc;border-radius:4px;}
+.send-otp{display:block;margin:10px 0;padding:10px;border:none;background:#17a2b8;color:white;border-radius:4px;cursor:pointer;width:100%;}
+.send-otp:hover{background:#138496;}
+.submit-btn{display:block;width:100%;padding:12px;border:none;background:#007bff;color:white;border-radius:4px;cursor:pointer;font-size:16px;margin-top:10px;}
+.submit-btn:hover{background:#0056b3;}
+a{
+    text-decoration: none;
+}

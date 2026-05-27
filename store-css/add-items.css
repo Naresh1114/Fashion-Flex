@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: white;
+}
+
+/* Top Section of Header */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+/* Bottom Nav Bar */
+.nav-links-container {
+  display: flex;
+  justify-content: center;
+  background-color: #111;
+  padding: 10px 0;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+
+.nav-links a:hover {
+  color: #f9c74f;
+}
+
+/* _________________________________________- */
+
+
+/*! add iltems start */
+#additem-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Blurred Background Layer */
+#additem-wrapper .additem-bg-blur {
+  background: url(../images/store-imgs/add\ item\ bg.png) center/cover no-repeat;
+  filter: blur(10px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Main Layout Centered */
+#additem-wrapper .additem-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 50px 15px; */
+  min-height: 100vh;
+}
+
+
+
+/* Form Container */
+#additem-wrapper .additem-full-container {
+  width: 90vw;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.484);
+  /* padding: 30px; */
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.61);
+}
+
+/* Inputs + Button */
+#additem-wrapper .additem-form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#additem-wrapper .additem-form .form-control {
+  border-radius: 8px;
+  font-size: 15px;
+  /* padding: 10px 12px; */
+}
+
+#additem-wrapper .additem-form .btn {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+
+/*! add iltems ends */
+
+
+
+
+/* !  footer */
+.footer-bottom {
+  text-align: center;
+  padding: 15px 0;
+  border-top: 1px solid #444;
+  color: #aaa;
+  font-size: 13px;
+  background-color: black;
+}
+

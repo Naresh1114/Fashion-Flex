@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Store List</title>
+  <link rel="stylesheet" href="../manager-css/store list.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="header-top">
+    <div class="logo">FashionFlex</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+    </div>
+    <div class="icons">
+      <i class="fas fa-bell"></i>
+      <div class="logout-container">
+        <button class="btn btn-dark">Logout</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-links-container">
+    <nav class="nav-links">
+      <a href="manager.html">All</a>
+        <a href="manager_profile.htm">profile</a>
+        <a href="add store.html">Add Store</a>
+        <a href="store list.html">Store List</a>
+        <a href="user list.html">User List</a>
+        <a href="tickets.html">Tickets</a>
+        <a href="report.html">Reports</a>
+        <a href="change psw.html">Change Password</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Store List -->
+<div class="container">
+  <h1>Store List</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Store ID</th>
+        <th>Store Name</th>
+        <th>Owner Name</th>
+        <th>Contact</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>More</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>STR001</td><td>FashionFlex South</td><td>Naresh</td><td>9876543210</td><td>south@fashionflex.com</td><td>Ramantapur</td>
+        <td><a href="#" class="btn btn-sm btn-primary">More</a></td>
+        <td><button class="btn btn-sm btn-danger">Delete</button></td>
+      </tr>
+      <tr>
+        <td>STR002</td><td>FashionFlex North</td><td>Kiran</td><td>9123456780</td><td>north@fashionflex.com</td><td>Ramantapur</td>
+        <td><a href="#" class="btn btn-sm btn-primary">More</a></td>
+        <td><button class="btn btn-sm btn-danger">Delete</button></td>
+      </tr>
+      <tr>
+        <td>STR003</td><td>FashionFlex East</td><td>Shalini</td><td>9988776655</td><td>east@fashionflex.com</td><td>Ramantapur</td>
+        <td><a href="#" class="btn btn-sm btn-primary">More</a></td>
+        <td><button class="btn btn-sm btn-danger">Delete</button></td>
+      </tr>
+      <tr>
+        <td>STR004</td><td>FashionFlex West</td><td>Deepika</td><td>9090909090</td><td>west@fashionflex.com</td><td>Ramantapur</td>
+        <td><a href="#" class="btn btn-sm btn-primary">More</a></td>
+        <td><button class="btn btn-sm btn-danger">Delete</button></td>
+      </tr>
+      <tr>
+        <td>STR005</td><td>FashionFlex Central</td><td>Harika</td><td>9009009001</td><td>central@fashionflex.com</td><td>Ramantapur</td>
+        <td><a href="#" class="btn btn-sm btn-primary">More</a></td>
+        <td><button class="btn btn-sm btn-danger">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
